@@ -37,12 +37,12 @@ layers:
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - '&lt 6 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - RIGHT SHIFT
-  - {t: TAB, h: MACNUM}
+  - {t: TAB, h: MACNAV}
   - {t: SPACE, h: Gui+ LEFT ALT}
-  - {t: LEFT GUI, h: MACNAV}
-  - {t: ENTER, h: MACNUM}
-  - {t: BACK SPACE, h: AGr+Ctl+ RIGHT GUI}
+  - {t: LEFT GUI, h: MACNUM}
   - {t: ENTER, h: MACNAV}
+  - {t: BACK SPACE, h: AGr+Ctl+ RIGHT GUI}
+  - {t: ENTER, h: MACNUM}
   MACNUM:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
@@ -78,11 +78,11 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
-  - Alt+ ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - Alt+Sft+ (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND))
-  - {type: held}
-  - BACK SPACE
   - {t: ▽, type: trans}
+  - BACK SPACE
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
@@ -123,11 +123,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+Sft+ 4
+  - Sft+Gui+ 5
   - {t: ▽, type: trans}
   WIN:
   - ESC
@@ -166,12 +166,12 @@ layers:
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - '&lt 6 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
   - RIGHT SHIFT
-  - {t: TAB, h: WNUM}
+  - {t: TAB, h: WNAV}
   - SPACE
-  - {t: LEFT GUI, h: WNAV}
-  - {t: ENTER, h: WNUM}
-  - BACK SPACE
+  - {t: LEFT GUI, h: WNUM}
   - {t: ENTER, h: WNAV}
+  - BACK SPACE
+  - {t: ENTER, h: WNUM}
   WNUM:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
@@ -209,9 +209,9 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
-  - {type: held}
-  - BACK SPACE
   - {t: ▽, type: trans}
+  - BACK SPACE
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
@@ -252,12 +252,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - PRINT SCREEN
   - {t: ▽, type: trans}
+  - PRINT SCREEN
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
