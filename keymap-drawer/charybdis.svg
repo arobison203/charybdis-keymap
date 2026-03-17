@@ -371,8 +371,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">ENTER</text>
-<a href="#MACNAV">
-<text x="0" y="24" class="key hold layer-activator">MACNAV</text>
+<a href="#MACNUM">
+<text x="0" y="24" class="key hold layer-activator">MACNUM</text>
 </a></g>
 <g transform="translate(563, 288) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -386,8 +386,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">ENTER</text>
-<a href="#MACNUM">
-<text x="0" y="24" class="key hold layer-activator">MACNUM</text>
+<a href="#MACNAV">
+<text x="0" y="24" class="key hold layer-activator">MACNAV</text>
 </a></g>
 </g>
 </g>
@@ -1143,8 +1143,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">ENTER</text>
-<a href="#WNAV">
-<text x="0" y="24" class="key hold layer-activator">WNAV</text>
+<a href="#WNUM">
+<text x="0" y="24" class="key hold layer-activator">WNUM</text>
 </a></g>
 <g transform="translate(563, 288) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1157,8 +1157,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">ENTER</text>
-<a href="#WNUM">
-<text x="0" y="24" class="key hold layer-activator">WNUM</text>
+<a href="#WNAV">
+<text x="0" y="24" class="key hold layer-activator">WNAV</text>
 </a></g>
 </g>
 </g>
