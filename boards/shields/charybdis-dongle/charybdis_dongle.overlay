@@ -14,7 +14,7 @@
 };
 
 / {
-	vtrackball: virtual_input_trackball {
+	&vtrackball: virtual_input_trackball {
 		compatible = "zmk,virtual-input";
 	};
 
