@@ -1,5 +1,6 @@
 #include "charybdis.dtsi"
 #include "charybdis_pmw3610.dtsi"
+#include "charybdis-layouts.dtsi"
 
 / {
     chosen {
@@ -33,4 +34,12 @@
 	vtrackball: virtual_input_trackball {
 		compatible = "zmk,virtual-input";
 	};
+};
+
+&spi0 {
+    status = "okay";
+};
+
+&trackball {
+    status = "okay";
 };
