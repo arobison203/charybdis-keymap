@@ -3,6 +3,8 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
+        zmk,physical-layout = <0>;
+        zmk,underglow = <0>;
     };
 
     mock_kscan: kscan_1 {
@@ -11,17 +13,15 @@
         rows = <0>;
         events = <0>;
     };
-};
 
-/ {
-	vtrackball: virtual_input_trackball {
-		compatible = "zmk,virtual-input";
+    vtrackball: virtual_input_trackball {
+        compatible = "zmk,virtual-input";
         label = "vtrackball";
-	};
+    };
 
-	input_relay_config_trackball {
-		compatible = "zmk,split-peripheral-input-relay";
-		device = <&vtrackball>;
-		relay-channel = <111>;
-	};
+    input_relay_config_trackball {
+        compatible = "zmk,split-peripheral-input-relay";
+        device = <&vtrackball>;
+        relay-channel = <111>;
+    };
 };
