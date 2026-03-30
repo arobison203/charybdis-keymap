@@ -1,6 +1,14 @@
 #include "charybdis.dtsi"
 #include "charybdis_pmw3610.dtsi"
 
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &charybdis_physical_layout;
+        zmk,underglow = &led_strip;
+    };
+};
+
 &kscan0 {
 	compatible = "zmk,kscan-gpio-matrix";
 	
