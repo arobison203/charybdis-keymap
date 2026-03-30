@@ -24,9 +24,4 @@
 		device = <&vtrackball>;
 		relay-channel = <111>;
 	};
-
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&vtrackball>;
-    };
 };
