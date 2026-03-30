@@ -4,7 +4,6 @@
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = <0>;
-        zmk,underglow = <0>;
     };
 
     mock_kscan: kscan_1 {
