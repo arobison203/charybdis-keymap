@@ -14,8 +14,9 @@
 };
 
 / {
-	&vtrackball: virtual_input_trackball {
+	vtrackball: virtual_input_trackball {
 		compatible = "zmk,virtual-input";
+        label = "vtrackball";
 	};
 
 	input_relay_config_trackball {
