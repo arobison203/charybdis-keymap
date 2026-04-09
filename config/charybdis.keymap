@@ -48,10 +48,10 @@
         device = <&vtrackball>;
         layers = <6>;
         evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_MISC>;
+        x-input-code = <INPUT_REL_HWHEEL>;
         y-input-code = <INPUT_REL_WHEEL>;
         y-invert;
-        bindings = <&ib_wheel_scaler 1 14>;
+        // bindings = <&ib_wheel_scaler 1 14>;
     };
 
     /* define a resolution down scaler only for INPUT_REL_WHEEL */
