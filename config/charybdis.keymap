@@ -37,6 +37,8 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
+        scale-multiplier = <1>;
+        scale-divisor = <8>;
         y-invert;
         bindings = <&ib_wheel_scaler 1 28>;
     };
