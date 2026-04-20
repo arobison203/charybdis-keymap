@@ -12,9 +12,15 @@
 #define Nav     4
 #define Scroll  5
 #define Lewd    6
+// All left/right positions
 #define KEYS_L 0  1  2  3  4  5  12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41
 #define KEYS_R 6  7  8  9  10 11 18 19 20 21 22 23 30 31 32 33 34 35 42 43 44 45 46 47
 #define THUMBS 48 49 50 51 52 53 54 55
+
+// Non-HRM keys per side (excludes only the home row mod positions to prevent same-hand roll misfires)
+// Left HRMs: A=25 S=26 D=27 F=28 | Right HRMs: J=31 K=32 L=33 SEMI=34
+#define KEYS_L_NON_HRM 0 1 2 3 4 5 12 13 14 15 16 17 24 29 36 37 38 39 40 41
+#define KEYS_R_NON_HRM 6 7 8 9 10 11 18 19 20 21 22 23 30 35 42 43 44 45 46 47
 
 / {
     /* trackball as cursor on base and nav layers */
@@ -97,7 +103,7 @@
             require-prior-idle-ms = <130>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <KEYS_R THUMBS>;
+            hold-trigger-key-positions = <KEYS_R KEYS_L_NON_HRM THUMBS>;
             hold-trigger-on-release;
         };
 
@@ -110,7 +116,7 @@
             require-prior-idle-ms = <130>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
+            hold-trigger-key-positions = <KEYS_L KEYS_R_NON_HRM THUMBS>;
             hold-trigger-on-release;
         };
 
